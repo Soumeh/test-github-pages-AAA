@@ -1,0 +1,6 @@
+{
+	"parent": "manic:insomniacs.entity/revenant/moving",
+	"textures": {
+		"0": "manic:insomniacs.entity/revenant/moving_hurt"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "manic:insomniacs.entity/lockjaw/beckon",
+	"textures": {
+		"0": "manic:insomniacs.entity/lockjaw/beckon_hurt"
+	}
+}

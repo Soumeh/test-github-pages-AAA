@@ -1,0 +1,8 @@
+name = "Shutup Experimental Settings"
+filename = "shutupexperimentalsettings-1.0.5.jar"
+side = "client"
+
+[download]
+url = "https://www.curseforge.com/api/v1/mods/407174/files/3759881/download"
+hash-format = "sha1"
+hash = "ad722f0e86a61310bdcea8975a106f0a4148ccb2"

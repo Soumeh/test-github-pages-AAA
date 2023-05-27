@@ -1,0 +1,6 @@
+{
+	"parent": "manic:insomniacs.entity/revenant/idle",
+	"textures": {
+		"0": "manic:insomniacs.entity/revenant/idle_hurt"
+	}
+}

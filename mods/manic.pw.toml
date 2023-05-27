@@ -1,0 +1,13 @@
+name = "Manic"
+filename = "manic-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n382wpVP/versions/vWQXLbAl/manic-1.0.3.jar"
+hash-format = "sha1"
+hash = "ad0972572260504793ba337a75018d60782c3f12"
+
+[update]
+[update.modrinth]
+mod-id = "n382wpVP"
+version = "vWQXLbAl"

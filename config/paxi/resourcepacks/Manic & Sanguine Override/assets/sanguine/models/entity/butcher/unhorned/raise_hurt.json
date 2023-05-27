@@ -1,0 +1,6 @@
+{
+	"parent": "sanguine:insomniacs.entity/butcher/unhorned/raise",
+	"textures": {
+		"0": "sanguine:insomniacs.entity/butcher/unhorned/raise_hurt"
+	}
+}

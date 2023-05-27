@@ -1,0 +1,2121 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/potion_overlay",
+    "layer1": "item/potion"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 8360000
+      },
+      "model": "manic:entity/spook/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360001
+      },
+      "model": "manic:entity/spook/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360002
+      },
+      "model": "manic:entity/spook/sprint"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360003
+      },
+      "model": "manic:entity/spook/sprint_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360004
+      },
+      "model": "manic:entity/spook/spit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360005
+      },
+      "model": "manic:entity/spook/spit_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360006
+      },
+      "model": "manic:entity/spook/emerge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360007
+      },
+      "model": "manic:entity/spook/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360008
+      },
+      "model": "manic:entity/wormhole/small"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360009
+      },
+      "model": "manic:entity/revenant/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360010
+      },
+      "model": "manic:entity/revenant/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360011
+      },
+      "model": "manic:entity/revenant/moving"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360012
+      },
+      "model": "manic:entity/revenant/moving_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360013
+      },
+      "model": "manic:entity/revenant/charge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360014
+      },
+      "model": "manic:entity/revenant/charge_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360015
+      },
+      "model": "manic:entity/revenant/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360016
+      },
+      "model": "manic:entity/revenant/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360017
+      },
+      "model": "manic:item/corpseplants/corpse_sap_bottle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360018
+      },
+      "model": "manic:entity/mirage/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360019
+      },
+      "model": "manic:entity/mirage/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360020
+      },
+      "model": "manic:entity/mirage/charge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360021
+      },
+      "model": "manic:entity/mirage/charge_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360022
+      },
+      "model": "manic:entity/mirage/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360023
+      },
+      "model": "manic:entity/mirage/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360024
+      },
+      "model": "manic:entity/eidolon/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360025
+      },
+      "model": "manic:entity/eidolon/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360026
+      },
+      "model": "manic:entity/eidolon/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360027
+      },
+      "model": "manic:entity/eidolon/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360028
+      },
+      "model": "manic:entity/eidolon/charge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360029
+      },
+      "model": "manic:entity/eidolon/charge_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360030
+      },
+      "model": "manic:entity/eidolon/emerge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360031
+      },
+      "model": "manic:entity/eidolon/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360032
+      },
+      "model": "manic:block/sanity_ray/insanity"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360033
+      },
+      "model": "manic:entity/necromorph/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360034
+      },
+      "model": "manic:entity/necromorph/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360035
+      },
+      "model": "manic:entity/necromorph/sprint"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360036
+      },
+      "model": "manic:entity/necromorph/sprint_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360037
+      },
+      "model": "manic:entity/necromorph/roar"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360038
+      },
+      "model": "manic:entity/necromorph/roar_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360039
+      },
+      "model": "manic:entity/necromorph/spit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360040
+      },
+      "model": "manic:entity/necromorph/spit_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360041
+      },
+      "model": "manic:entity/necromorph/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360042
+      },
+      "model": "manic:entity/necromorph/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360043
+      },
+      "model": "manic:entity/grinn/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360044
+      },
+      "model": "manic:entity/grinn/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360045
+      },
+      "model": "manic:entity/grinn/twitch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360046
+      },
+      "model": "manic:entity/grinn/twitch_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360047
+      },
+      "model": "manic:entity/grinn/sprint"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360048
+      },
+      "model": "manic:entity/grinn/sprint_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360049
+      },
+      "model": "manic:entity/grinn/summon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360050
+      },
+      "model": "manic:entity/grinn/summon_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360051
+      },
+      "model": "manic:entity/grinn/attack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360052
+      },
+      "model": "manic:entity/grinn/attack_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360053
+      },
+      "model": "manic:entity/grinn/decompose"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360054
+      },
+      "model": "manic:entity/grinn/decompose_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360055
+      },
+      "model": "manic:entity/grinn/regroup"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360056
+      },
+      "model": "manic:entity/grinn/regroup_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360057
+      },
+      "model": "manic:entity/lockjaw/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360058
+      },
+      "model": "manic:entity/lockjaw/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360059
+      },
+      "model": "manic:entity/lockjaw/sprint"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360060
+      },
+      "model": "manic:entity/lockjaw/sprint_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360061
+      },
+      "model": "manic:entity/lockjaw/bite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360062
+      },
+      "model": "manic:entity/lockjaw/bite_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360063
+      },
+      "model": "manic:entity/lockjaw/beckon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360064
+      },
+      "model": "manic:entity/lockjaw/beckon_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360065
+      },
+      "model": "manic:entity/lockjaw/spit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360066
+      },
+      "model": "manic:entity/lockjaw/spit_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360067
+      },
+      "model": "manic:entity/lockjaw/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360068
+      },
+      "model": "manic:entity/lockjaw/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360069
+      },
+      "model": "manic:entity/phantom/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360070
+      },
+      "model": "manic:entity/phantom/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360071
+      },
+      "model": "manic:entity/phantom/snared"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360072
+      },
+      "model": "manic:entity/wormhole/large_ground"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360073
+      },
+      "model": "manic:entity/insomniac/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360074
+      },
+      "model": "manic:entity/insomniac/head_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360075
+      },
+      "model": "manic:entity/insomniac/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360076
+      },
+      "model": "manic:entity/insomniac/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360077
+      },
+      "model": "manic:entity/insomniac/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360078
+      },
+      "model": "manic:entity/insomniac/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360079
+      },
+      "model": "manic:entity/zombee/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360080
+      },
+      "model": "manic:entity/zombee/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360081
+      },
+      "model": "manic:entity/zombee/sting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360082
+      },
+      "model": "manic:entity/zombee/sting_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360083
+      },
+      "model": "manic:entity/zombee/sap/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360084
+      },
+      "model": "manic:entity/zombee/sap/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360085
+      },
+      "model": "manic:entity/zombee/sap/sting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360086
+      },
+      "model": "manic:entity/zombee/sap/sting_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360086
+      },
+      "model": "manic:entity/corpsecreep/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360087
+      },
+      "model": "manic:entity/corpsecreep/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360088
+      },
+      "model": "manic:entity/corpsecreep/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360089
+      },
+      "model": "manic:entity/corpsecreep/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360090
+      },
+      "model": "manic:entity/corpsecreep/ignited"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360091
+      },
+      "model": "manic:entity/corpsecreep/ignited_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360092
+      },
+      "model": "manic:entity/piglin_monk/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360093
+      },
+      "model": "manic:entity/piglin_monk/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360094
+      },
+      "model": "manic:entity/piglin_monk/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360095
+      },
+      "model": "manic:entity/piglin_monk/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360096
+      },
+      "model": "manic:entity/piglin_monk/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360097
+      },
+      "model": "manic:entity/piglin_monk/head_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360098
+      },
+      "model": "manic:entity/piglin_monk/items/membrane"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360099
+      },
+      "model": "manic:entity/piglin_monk/items/necroplasm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360100
+      },
+      "model": "manic:entity/piglin_monk/items/lysosome"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360101
+      },
+      "model": "manic:entity/piglin_monk/items/reticulum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360102
+      },
+      "model": "manic:entity/piglin_monk/items/vacuuole"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360103
+      },
+      "model": "manic:entity/piglin_monk/items/sunstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360104
+      },
+      "model": "manic:entity/chitter/waning/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360105
+      },
+      "model": "manic:entity/chitter/waning/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360106
+      },
+      "model": "manic:entity/chitter/waning/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360107
+      },
+      "model": "manic:entity/chitter/waning/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360108
+      },
+      "model": "manic:entity/chitter/insane/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360109
+      },
+      "model": "manic:entity/chitter/insane/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360110
+      },
+      "model": "manic:entity/chitter/insane/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360111
+      },
+      "model": "manic:entity/chitter/insane/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360112
+      },
+      "model": "manic:entity/chitter/lunacy/1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360113
+      },
+      "model": "manic:entity/chitter/lunacy/2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360114
+      },
+      "model": "manic:entity/chitter/lunacy/3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360115
+      },
+      "model": "manic:entity/chitter/lunacy/4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360116
+      },
+      "model": "manic:entity/siren/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360117
+      },
+      "model": "manic:entity/siren/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360118
+      },
+      "model": "manic:entity/siren/charge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360119
+      },
+      "model": "manic:entity/siren/charge_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360120
+      },
+      "model": "manic:entity/siren/spawn_hands"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360121
+      },
+      "model": "manic:entity/siren/spawn_hands_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360122
+      },
+      "model": "manic:entity/siren/spawn_mirage"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360123
+      },
+      "model": "manic:entity/siren/spawn_mirage_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360124
+      },
+      "model": "manic:entity/siren/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360125
+      },
+      "model": "manic:entity/siren/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360126
+      },
+      "model": "manic:entity/siren/hand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360127
+      },
+      "model": "manic:entity/sorrowhead/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360128
+      },
+      "model": "manic:entity/sorrowhead/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360129
+      },
+      "model": "manic:entity/sorrowhead/dash"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360130
+      },
+      "model": "manic:entity/sorrowhead/dash_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360131
+      },
+      "model": "manic:entity/sorrowhead/spit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360132
+      },
+      "model": "manic:entity/sorrowhead/spit_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360133
+      },
+      "model": "manic:entity/sorrowhead/knocked"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360134
+      },
+      "model": "manic:entity/sorrowhead/knocked_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360135
+      },
+      "model": "manic:entity/sorrowhead/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360136
+      },
+      "model": "manic:entity/sorrowhead/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360137
+      },
+      "model": "manic:block/anirrum_altar/altar_tentacle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360138
+      },
+      "model": "manic:item/grimoire/render"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360139
+      },
+      "model": "manic:item/grimoire/render"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360140
+      },
+      "model": "manic:entity/residuum/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360141
+      },
+      "model": "manic:entity/residuum/chase"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360142
+      },
+      "model": "manic:entity/revenant/elbones/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360143
+      },
+      "model": "manic:entity/revenant/elbones/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360144
+      },
+      "model": "manic:entity/revenant/elbones/moving"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360145
+      },
+      "model": "manic:entity/revenant/elbones/moving_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360146
+      },
+      "model": "manic:entity/revenant/elbones/charge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360147
+      },
+      "model": "manic:entity/revenant/elbones/charge_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360148
+      },
+      "model": "manic:entity/revenant/elbones/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360149
+      },
+      "model": "manic:entity/revenant/elbones/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360150
+      },
+      "model": "manic:entity/paracusia/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360151
+      },
+      "model": "manic:entity/paracusia/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360152
+      },
+      "model": "manic:entity/paracusia/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360153
+      },
+      "model": "manic:entity/paracusia/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360154
+      },
+      "model": "manic:entity/paracusia/attack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360155
+      },
+      "model": "manic:entity/paracusia/attack_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360156
+      },
+      "model": "manic:entity/paracusia/shoot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360157
+      },
+      "model": "manic:entity/paracusia/shoot_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360158
+      },
+      "model": "manic:entity/paracusia/alert"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360159
+      },
+      "model": "manic:entity/paracusia/alert_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360160
+      },
+      "model": "manic:entity/paracusia/alert_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360161
+      },
+      "model": "manic:entity/paracusia/alert_idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360162
+      },
+      "model": "manic:entity/paracusia/alert_walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360163
+      },
+      "model": "manic:entity/paracusia/alert_walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360164
+      },
+      "model": "manic:entity/paracusia/alert_attack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360165
+      },
+      "model": "manic:entity/paracusia/alert_attack_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360166
+      },
+      "model": "manic:entity/paracusia/alert_undo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360167
+      },
+      "model": "manic:entity/paracusia/alert_undo_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360168
+      },
+      "model": "manic:entity/paracusia/additional/soundwave"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360169
+      },
+      "model": "manic:entity/paracusia/additional/cackler"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360170
+      },
+      "model": "manic:entity/heretic/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360171
+      },
+      "model": "manic:entity/heretic/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360172
+      },
+      "model": "manic:entity/heretic/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360173
+      },
+      "model": "manic:entity/heretic/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360174
+      },
+      "model": "manic:entity/heretic/cast_explosion"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360175
+      },
+      "model": "manic:entity/heretic/cast_explosion_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360176
+      },
+      "model": "manic:entity/heretic/cast_flame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360177
+      },
+      "model": "manic:entity/heretic/cast_flame_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360178
+      },
+      "model": "manic:entity/heretic/cast_tentacle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360179
+      },
+      "model": "manic:entity/heretic/cast_tentacle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360180
+      },
+      "model": "manic:entity/zealot/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360181
+      },
+      "model": "manic:entity/zealot/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360182
+      },
+      "model": "manic:entity/zealot/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360183
+      },
+      "model": "manic:entity/zealot/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360184
+      },
+      "model": "manic:entity/zealot/cast_mob"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360185
+      },
+      "model": "manic:entity/zealot/cast_mob_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360186
+      },
+      "model": "manic:entity/zealot/cast_flame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360187
+      },
+      "model": "manic:entity/zealot/cast_flame_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360188
+      },
+      "model": "manic:entity/zealot/cast_tentacle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360189
+      },
+      "model": "manic:entity/zealot/cast_tentacle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8360190
+      },
+      "model": "manic:entity/heretic/tentacle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:entity/unborn/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361000
+      },
+      "model": "sanguine:entity/unborn/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:entity/unborn/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361001
+      },
+      "model": "sanguine:entity/unborn/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:entity/unborn/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361002
+      },
+      "model": "sanguine:entity/unborn/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361003
+      },
+      "model": "sanguine:entity/unborn/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361003
+      },
+      "model": "sanguine:entity/unborn/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361004
+      },
+      "model": "sanguine:entity/unborn/attack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361004
+      },
+      "model": "sanguine:entity/unborn/attack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361005
+      },
+      "model": "sanguine:entity/unborn/attack_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361005
+      },
+      "model": "sanguine:entity/unborn/attack_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361006
+      },
+      "model": "sanguine:entity/unborn/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361006
+      },
+      "model": "sanguine:entity/unborn/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361007
+      },
+      "model": "sanguine:entity/unborn/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361007
+      },
+      "model": "sanguine:entity/unborn/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361008
+      },
+      "model": "sanguine:entity/gurgle/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361008
+      },
+      "model": "sanguine:entity/gurgle/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361009
+      },
+      "model": "sanguine:entity/gurgle/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361009
+      },
+      "model": "sanguine:entity/gurgle/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361010
+      },
+      "model": "sanguine:entity/gurgle/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361010
+      },
+      "model": "sanguine:entity/gurgle/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361011
+      },
+      "model": "sanguine:entity/gurgle/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361011
+      },
+      "model": "sanguine:entity/gurgle/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361012
+      },
+      "model": "sanguine:entity/gurgle/shoot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361012
+      },
+      "model": "sanguine:entity/gurgle/shoot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361013
+      },
+      "model": "sanguine:entity/gurgle/shoot_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361013
+      },
+      "model": "sanguine:entity/gurgle/shoot_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361014
+      },
+      "model": "sanguine:entity/gurgle/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361014
+      },
+      "model": "sanguine:entity/gurgle/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361015
+      },
+      "model": "sanguine:entity/gurgle/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361015
+      },
+      "model": "sanguine:entity/gurgle/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361016
+      },
+      "model": "sanguine:entity/carrion/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361016
+      },
+      "model": "sanguine:entity/carrion/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361017
+      },
+      "model": "sanguine:entity/carrion/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361017
+      },
+      "model": "sanguine:entity/carrion/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361018
+      },
+      "model": "sanguine:entity/carrion/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361018
+      },
+      "model": "sanguine:entity/carrion/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361019
+      },
+      "model": "sanguine:entity/carrion/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361019
+      },
+      "model": "sanguine:entity/carrion/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361020
+      },
+      "model": "sanguine:entity/carrion/trap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361020
+      },
+      "model": "sanguine:entity/carrion/trap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361021
+      },
+      "model": "sanguine:entity/carrion/trap_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361021
+      },
+      "model": "sanguine:entity/carrion/trap_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361022
+      },
+      "model": "sanguine:entity/carrion/summon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361022
+      },
+      "model": "sanguine:entity/carrion/summon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361023
+      },
+      "model": "sanguine:entity/carrion/summon_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361023
+      },
+      "model": "sanguine:entity/carrion/summon_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361024
+      },
+      "model": "sanguine:entity/carrion/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361024
+      },
+      "model": "sanguine:entity/carrion/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361025
+      },
+      "model": "sanguine:entity/carrion/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361025
+      },
+      "model": "sanguine:entity/carrion/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361026
+      },
+      "model": "sanguine:entity/reaper/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361026
+      },
+      "model": "sanguine:entity/reaper/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361027
+      },
+      "model": "sanguine:entity/reaper/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361027
+      },
+      "model": "sanguine:entity/reaper/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361028
+      },
+      "model": "sanguine:entity/reaper/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361028
+      },
+      "model": "sanguine:entity/reaper/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361029
+      },
+      "model": "sanguine:entity/reaper/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361029
+      },
+      "model": "sanguine:entity/reaper/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361030
+      },
+      "model": "sanguine:entity/reaper/prime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361030
+      },
+      "model": "sanguine:entity/reaper/prime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361031
+      },
+      "model": "sanguine:entity/reaper/prime_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361031
+      },
+      "model": "sanguine:entity/reaper/prime_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361032
+      },
+      "model": "sanguine:entity/reaper/unprime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361032
+      },
+      "model": "sanguine:entity/reaper/unprime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361033
+      },
+      "model": "sanguine:entity/reaper/unprime_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361033
+      },
+      "model": "sanguine:entity/reaper/unprime_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361034
+      },
+      "model": "sanguine:entity/reaper/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361034
+      },
+      "model": "sanguine:entity/reaper/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361035
+      },
+      "model": "sanguine:entity/reaper/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361035
+      },
+      "model": "sanguine:entity/reaper/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361036
+      },
+      "model": "sanguine:entity/offal/offal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361036
+      },
+      "model": "sanguine:entity/offal/offal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361037
+      },
+      "model": "sanguine:entity/offal/offal_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361037
+      },
+      "model": "sanguine:entity/offal/offal_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361038
+      },
+      "model": "sanguine:entity/offal/offal_unhinged"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361038
+      },
+      "model": "sanguine:entity/offal/offal_unhinged"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361039
+      },
+      "model": "sanguine:entity/offal/offal_unhinged_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361039
+      },
+      "model": "sanguine:entity/offal/offal_unhinged_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361040
+      },
+      "model": "sanguine:entity/butcher/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361040
+      },
+      "model": "sanguine:entity/butcher/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361041
+      },
+      "model": "sanguine:entity/butcher/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361041
+      },
+      "model": "sanguine:entity/butcher/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361042
+      },
+      "model": "sanguine:entity/butcher/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361042
+      },
+      "model": "sanguine:entity/butcher/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361043
+      },
+      "model": "sanguine:entity/butcher/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361043
+      },
+      "model": "sanguine:entity/butcher/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361044
+      },
+      "model": "sanguine:entity/butcher/lower"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361044
+      },
+      "model": "sanguine:entity/butcher/lower"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361045
+      },
+      "model": "sanguine:entity/butcher/lower_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361045
+      },
+      "model": "sanguine:entity/butcher/lower_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361046
+      },
+      "model": "sanguine:entity/butcher/sprint_ground"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361046
+      },
+      "model": "sanguine:entity/butcher/sprint_ground"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361047
+      },
+      "model": "sanguine:entity/butcher/sprint_ground_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361047
+      },
+      "model": "sanguine:entity/butcher/sprint_ground_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361048
+      },
+      "model": "sanguine:entity/butcher/raise"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361048
+      },
+      "model": "sanguine:entity/butcher/raise"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361049
+      },
+      "model": "sanguine:entity/butcher/raise_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361049
+      },
+      "model": "sanguine:entity/butcher/raise_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361050
+      },
+      "model": "sanguine:entity/butcher/gore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361050
+      },
+      "model": "sanguine:entity/butcher/gore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361051
+      },
+      "model": "sanguine:entity/butcher/gore_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361051
+      },
+      "model": "sanguine:entity/butcher/gore_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361052
+      },
+      "model": "sanguine:entity/butcher/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361052
+      },
+      "model": "sanguine:entity/butcher/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361053
+      },
+      "model": "sanguine:entity/butcher/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361053
+      },
+      "model": "sanguine:entity/butcher/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361054
+      },
+      "model": "sanguine:entity/butcher/unhorned/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361054
+      },
+      "model": "sanguine:entity/butcher/unhorned/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361055
+      },
+      "model": "sanguine:entity/butcher/unhorned/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361055
+      },
+      "model": "sanguine:entity/butcher/unhorned/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361056
+      },
+      "model": "sanguine:entity/butcher/unhorned/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361056
+      },
+      "model": "sanguine:entity/butcher/unhorned/walk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361057
+      },
+      "model": "sanguine:entity/butcher/unhorned/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361057
+      },
+      "model": "sanguine:entity/butcher/unhorned/walk_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361058
+      },
+      "model": "sanguine:entity/butcher/unhorned/lower"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361058
+      },
+      "model": "sanguine:entity/butcher/unhorned/lower"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361059
+      },
+      "model": "sanguine:entity/butcher/unhorned/lower_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361059
+      },
+      "model": "sanguine:entity/butcher/unhorned/lower_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361060
+      },
+      "model": "sanguine:entity/butcher/unhorned/sprint_ground"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361060
+      },
+      "model": "sanguine:entity/butcher/unhorned/sprint_ground"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361061
+      },
+      "model": "sanguine:entity/butcher/unhorned/sprint_ground_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361061
+      },
+      "model": "sanguine:entity/butcher/unhorned/sprint_ground_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361062
+      },
+      "model": "sanguine:entity/butcher/unhorned/raise"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361062
+      },
+      "model": "sanguine:entity/butcher/unhorned/raise"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361063
+      },
+      "model": "sanguine:entity/butcher/unhorned/raise_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361063
+      },
+      "model": "sanguine:entity/butcher/unhorned/raise_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361064
+      },
+      "model": "sanguine:entity/butcher/unhorned/gore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361064
+      },
+      "model": "sanguine:entity/butcher/unhorned/gore"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361065
+      },
+      "model": "sanguine:entity/butcher/unhorned/gore_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361065
+      },
+      "model": "sanguine:entity/butcher/unhorned/gore_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361066
+      },
+      "model": "sanguine:entity/butcher/unhorned/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361066
+      },
+      "model": "sanguine:entity/butcher/unhorned/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361067
+      },
+      "model": "sanguine:entity/butcher/unhorned/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361067
+      },
+      "model": "sanguine:entity/butcher/unhorned/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361068
+      },
+      "model": "sanguine:entity/gore_zombie/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361068
+      },
+      "model": "sanguine:entity/gore_zombie/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361069
+      },
+      "model": "sanguine:entity/gore_zombie/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361069
+      },
+      "model": "sanguine:entity/gore_zombie/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361070
+      },
+      "model": "sanguine:entity/gore_skeleton/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361070
+      },
+      "model": "sanguine:entity/gore_skeleton/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361071
+      },
+      "model": "sanguine:entity/gore_skeleton/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361071
+      },
+      "model": "sanguine:entity/gore_skeleton/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361072
+      },
+      "model": "sanguine:entity/maul/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361072
+      },
+      "model": "sanguine:entity/maul/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361073
+      },
+      "model": "sanguine:entity/maul/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361073
+      },
+      "model": "sanguine:entity/maul/idle_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361074
+      },
+      "model": "sanguine:entity/maul/spit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361074
+      },
+      "model": "sanguine:entity/maul/spit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361075
+      },
+      "model": "sanguine:entity/maul/spit_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361075
+      },
+      "model": "sanguine:entity/maul/spit_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361076
+      },
+      "model": "sanguine:entity/maul/trigger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361076
+      },
+      "model": "sanguine:entity/maul/trigger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361077
+      },
+      "model": "sanguine:entity/maul/trigger_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361077
+      },
+      "model": "sanguine:entity/maul/trigger_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361078
+      },
+      "model": "sanguine:entity/maul/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361078
+      },
+      "model": "sanguine:entity/maul/spawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361079
+      },
+      "model": "sanguine:entity/maul/despawn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8361079
+      },
+      "model": "sanguine:entity/maul/despawn"
+    }
+  ]
+}
