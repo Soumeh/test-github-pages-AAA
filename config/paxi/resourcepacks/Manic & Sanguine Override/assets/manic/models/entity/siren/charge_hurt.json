@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/siren/charge",
+	"parent": "manic:entity/siren/charge",
 	"textures": {
 		"0": "manic:insomniacs.entity/siren/charge_hurt"
 	}

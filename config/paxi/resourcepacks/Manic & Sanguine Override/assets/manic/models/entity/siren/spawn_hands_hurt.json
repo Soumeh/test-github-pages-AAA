@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/siren/spawn_hands",
+	"parent": "manic:entity/siren/spawn_hands",
 	"textures": {
 		"0": "manic:insomniacs.entity/siren/spawn_hands_hurt"
 	}

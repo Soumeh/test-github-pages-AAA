@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/necromorph/spit",
+	"parent": "manic:entity/necromorph/spit",
 	"textures": {
 		"0": "manic:insomniacs.entity/necromorph/spit_hurt"
 	}

@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/grinn/summon",
+	"parent": "manic:entity/grinn/summon",
 	"textures": {
 		"0": "manic:insomniacs.entity/grinn/summon_hurt"
 	}

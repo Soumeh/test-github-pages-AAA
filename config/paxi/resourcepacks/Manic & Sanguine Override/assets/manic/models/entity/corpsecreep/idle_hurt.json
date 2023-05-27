@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/corpsecreep/idle",
+	"parent": "manic:entity/corpsecreep/idle",
 	"textures": {
 		"0": "manic:insomniacs.entity/corpsecreep/idle_hurt"
 	}

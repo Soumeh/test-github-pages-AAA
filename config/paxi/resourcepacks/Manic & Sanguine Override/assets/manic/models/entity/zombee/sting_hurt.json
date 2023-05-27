@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/zombee/sting",
+	"parent": "manic:entity/zombee/sting",
 	"textures": {
 		"0": "manic:insomniacs.entity/zombee/sting_hurt"
 	}

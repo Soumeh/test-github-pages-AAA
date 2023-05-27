@@ -1,6 +1,6 @@
 {
-  "parent": "manic:insomniacs.entity/chitter/base",
-  "textures": {
-    "layer0": "manic:insomniacs.entity/chitter/insane/2"
-  }
+    "parent": "manic:entity/chitter/base",
+    "textures": {
+        "layer0": "manic:insomniacs.entity/chitter/insane/2"
+    }
 }

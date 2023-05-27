@@ -1,6 +1,6 @@
 {
-	"parent": "sanguine:insomniacs.entity/unborn/attack",
-	"textures": {
-		"0": "sanguine:insomniacs.entity/unborn/attack_hurt"
-	}
+    "parent": "sanguine:entity/unborn/attack",
+    "textures": {
+        "0": "sanguine:insomniacs.entity/unborn/attack_hurt"
+    }
 }

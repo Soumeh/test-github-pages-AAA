@@ -1,6 +1,6 @@
 {
-	"parent": "sanguine:insomniacs.entity/butcher/gore",
-	"textures": {
-		"0": "sanguine:insomniacs.entity/butcher/gore_hurt"
-	}
+    "parent": "sanguine:entity/butcher/gore",
+    "textures": {
+        "0": "sanguine:insomniacs.entity/butcher/gore_hurt"
+    }
 }

@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/piglin_monk/idle",
+	"parent": "manic:entity/piglin_monk/idle",
 	"textures": {
 		"0": "manic:insomniacs.entity/piglin_monk/idle_hurt"
 	}

@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/eidolon/walk",
+	"parent": "manic:entity/eidolon/walk",
 	"textures": {
 		"0": "manic:insomniacs.entity/eidolon/walk_hurt"
 	}

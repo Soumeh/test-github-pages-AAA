@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/corpsecreep/walk",
+	"parent": "manic:entity/corpsecreep/walk",
 	"textures": {
 		"0": "manic:insomniacs.entity/corpsecreep/walk_hurt"
 	}

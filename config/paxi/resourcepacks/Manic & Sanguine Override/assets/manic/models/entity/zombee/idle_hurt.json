@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/zombee/idle",
+	"parent": "manic:entity/zombee/idle",
 	"textures": {
 		"0": "manic:insomniacs.entity/zombee/idle_hurt"
 	}

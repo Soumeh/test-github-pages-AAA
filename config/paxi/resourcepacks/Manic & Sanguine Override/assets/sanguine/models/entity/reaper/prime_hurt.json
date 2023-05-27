@@ -1,6 +1,6 @@
 {
-	"parent": "sanguine:insomniacs.entity/reaper/prime",
-	"textures": {
-		"0": "sanguine:insomniacs.entity/reaper/prime_hurt"
-	}
+    "parent": "sanguine:entity/reaper/prime",
+    "textures": {
+        "0": "sanguine:insomniacs.entity/reaper/prime_hurt"
+    }
 }

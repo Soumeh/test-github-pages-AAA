@@ -1,6 +1,6 @@
 {
-	"parent": "sanguine:insomniacs.entity/maul/trigger",
-	"textures": {
-		"0": "sanguine:insomniacs.entity/maul/trigger_hurt"
-	}
+    "parent": "sanguine:entity/maul/trigger",
+    "textures": {
+        "0": "sanguine:insomniacs.entity/maul/trigger_hurt"
+    }
 }

@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/siren/idle",
+	"parent": "manic:entity/siren/idle",
 	"textures": {
 		"0": "manic:insomniacs.entity/siren/idle_hurt"
 	}

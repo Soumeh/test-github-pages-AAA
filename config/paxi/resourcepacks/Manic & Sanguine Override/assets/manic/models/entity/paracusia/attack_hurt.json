@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/paracusia/attack",
+	"parent": "manic:entity/paracusia/attack",
 	"textures": {
 		"0": "manic:insomniacs.entity/paracusia/attack_hurt"
 	}

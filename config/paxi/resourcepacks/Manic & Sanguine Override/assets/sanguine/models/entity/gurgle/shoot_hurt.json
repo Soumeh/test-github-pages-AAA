@@ -1,6 +1,6 @@
 {
-	"parent": "sanguine:insomniacs.entity/gurgle/shoot",
-	"textures": {
-		"0": "sanguine:insomniacs.entity/gurgle/shoot_hurt"
-	}
+    "parent": "sanguine:entity/gurgle/shoot",
+    "textures": {
+        "0": "sanguine:insomniacs.entity/gurgle/shoot_hurt"
+    }
 }

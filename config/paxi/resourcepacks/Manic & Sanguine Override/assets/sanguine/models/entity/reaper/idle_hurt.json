@@ -1,6 +1,6 @@
 {
-	"parent": "sanguine:insomniacs.entity/reaper/idle",
-	"textures": {
-		"0": "sanguine:insomniacs.entity/reaper/idle_hurt"
-	}
+    "parent": "sanguine:entity/reaper/idle",
+    "textures": {
+        "0": "sanguine:insomniacs.entity/reaper/idle_hurt"
+    }
 }

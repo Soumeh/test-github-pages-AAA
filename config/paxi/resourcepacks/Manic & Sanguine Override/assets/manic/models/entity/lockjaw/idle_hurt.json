@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/lockjaw/idle",
+	"parent": "manic:entity/lockjaw/idle",
 	"textures": {
 		"0": "manic:insomniacs.entity/lockjaw/idle_hurt"
 	}

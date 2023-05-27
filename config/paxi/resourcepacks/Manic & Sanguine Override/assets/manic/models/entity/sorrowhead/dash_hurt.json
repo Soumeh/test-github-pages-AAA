@@ -1,5 +1,5 @@
 {
-	"parent": "manic:insomniacs.entity/sorrowhead/dash",
+	"parent": "manic:entity/sorrowhead/dash",
 	"textures": {
 		"0": "manic:insomniacs.entity/sorrowhead/dash_hurt"
 	}
