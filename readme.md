@@ -1,12 +1,16 @@
+# **[!] Notice [!]** This project is not officially endorsed by The Insomniacs.
+
 # 🎭 About 🎭
 
 **The Theatre** is a **Fabric Modpack** centered around the **Manic & Sanguine** Data Packs.
 
 This pack serves as a clean slate for anyone who wants to play with both Manic & Sanguine without the hassle of manually merging them, but it can also be enjoyed as-is.
 
-**[!] Warning [!]** This project is early in development, here be dragons! Some features might not work, some might be bugged, so if you run into any issues, please report them to us!
+> For any questions related to Manic & Sanguine, go to [The Insomniacs Discord Server](https://discord.gg/jsbRvexYqA).
 
 **[!] Warning [!]** Manic & Sanguine do not officially support 1.19.2, so this pack does some hacky things to make them work.
+
+> For any questions related to the 1.19.2 port of Manic & Sanguine, or the Modpack itself, go to [The Sindercube Discord Server](https://discord.gg/dmKMAMf).
 
 # 🩸 Features 🩸
 
