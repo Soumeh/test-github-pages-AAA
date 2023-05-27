@@ -18,6 +18,7 @@ rsync -av * temp/ --exclude=temp/ --exclude=fabric/ --exclude=forge/ --exclude=b
 rsync -av fabric/ temp/
 
 cd temp/
+echo -e '\n[versions]\nfabric = "0.14.21"\nminecraft = "1.19.2"' >> pack.toml
 
 # build
 packwiz mr export --output ../build/fabric.mrpack
@@ -38,6 +39,7 @@ rsync -av * temp/ --exclude=temp/ --exclude=fabric/ --exclude=forge/ --exclude=b
 rsync -av forge/ temp/
 
 cd temp/
+echo -e '\n[versions]\nforge = "43.2.0"\nminecraft = "1.19.2"' >> pack.toml
 
 # build
 packwiz mr export --output ../build/forge.mrpack
