@@ -1,0 +1,13 @@
+name = "MoreCreativeTabs"
+filename = "MoreCreativeTabs-combo-1.19-1.2.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nOiHJ1dx/versions/Ch2ed9St/MoreCreativeTabs-combo-1.19-1.2.1.jar"
+hash-format = "sha1"
+hash = "84598b007222a5bcd2668e39ac3361316aab02ce"
+
+[update]
+[update.modrinth]
+mod-id = "nOiHJ1dx"
+version = "Ch2ed9St"
