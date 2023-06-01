@@ -1,8 +1,8 @@
 <!--
-# **[!] Notice [!]** The 1.19.2 version of the pack uses outdated versions of Manic & Sanguine and won't be updated because of compatibility issues.
+# **⚠️ Notice ⚠️** The 1.19.2 version of the pack uses outdated versions of Manic & Sanguine and won't be updated because of compatibility issues.
 -->
 
-# **[!] Notice [!]** This project is not officially endorsed by The Insomniacs.
+# **⚠️ Notice ⚠️** This project is not officially endorsed by The Insomniacs.
 
 # 🎭 About 🎭
 
@@ -25,11 +25,11 @@ This pack serves as a clean slate for anyone who wants to play with both Manic &
 
 # 🛠️ Standalone Usage 🛠️
 
-> **[!] Warning [!]** The 1.19.2 version of Manic & Sanguine will stop being supported once the next releases of both packs come out, which will make this tutorial obsolete.
+> **⚠️ Warning ⚠️** The 1.19.2 version of Manic & Sanguine will stop being supported once the next releases of both packs come out, which will make this tutorial obsolete.
 
 Manic & Sanguine do not officially support Minecraft 1.19.2, and as such this modpack applies tweaks which fix this incompatibility.
 
-You can make Manic & Sanguine compatible with Minecraft 1.19.2 by simply adding this modpack's [override resourcepack](overrides/Override%20Resourcepack.zip) and [datapack](overrides/Override%20Datapack.zip) to your own instance.
+You can make Manic & Sanguine compatible with Minecraft 1.19.2 by simply adding this modpack's [override resourcepack](https://github.com/Sindercube/The-Theatre/raw/main/overrides/Override%20Resourcepack.zip) and [datapack](https://github.com/Sindercube/The-Theatre/raw/main/overrides/Override%20Datapack.zip) to your own instance.
 
 # 📜 Credits 📜
 
