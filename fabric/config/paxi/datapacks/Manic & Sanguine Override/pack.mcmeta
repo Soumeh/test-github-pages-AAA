@@ -7,6 +7,12 @@
             {"text":"Sanguine","color":"#880f0f"},
             {"text":" Override","color":"#86a697"}
         ]
+    },
+    "filter": {
+        "block": [
+            { "namespace": "manic", "path": "recipes/.*" },
+            { "namespace": "sanguine", "path": "recipes/.*" }
+        ]
     }
 }
  

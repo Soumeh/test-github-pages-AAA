@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "III",
+        "X#X",
+        "XXX"
+    ],
+    "key": {
+        "#": { "item": "minecraft:rotten_flesh" },
+        "X": { "item": "minecraft:cobbled_deepslate" },
+        "I": { "item": "minecraft:iron_ingot" }
+    },
+    "result": {
+        "item": "minecraft:dispenser",
+        "count": 1,
+        "data": {
+            "display": {
+                "Name": "{\"translate\":\"block.manic.deepslate_altar\",\"italic\":false}",
+                "Lore": ["{\"translate\":\"pack.manic\",\"color\":\"#106050\",\"italic\":true}"]
+            },
+            "BlockEntityTag": {
+                "Items": [{
+                    "id": "minecraft:stone", "Count": 1, "Slot": 0,
+                    "tag": { "smithed": { "block": { "id": "manic:deepslate_altar" } } }
+                }]
+            },
+            "CustomModelData": 8360004,
+            "manic": { "id": "deepslate_altar"}
+        }
+    }
+}
+
