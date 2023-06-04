@@ -35,3 +35,4 @@ You can make Manic & Sanguine compatible with Minecraft 1.19.2 by simply adding 
 
 - Manic and Sanguine are made by [VisiVersa](https://modrinth.com/user/Visi) and [ElBones](https://www.planetminecraft.com/member/elbones/), for free, for your entertainment. If you are enjoying the modpack, go give them a big thank you in [The Insomniacs Discord Server](https://discord.gg/jsbRvexYqA).
 - The Theatre is made using [packwiz](https://packwiz.infra.link/), a really cool CLI for modpack development.
+- I want to give a big thank you to [Heapons](https://github.com/Heapons) for helping me with the custom datapack features of the pack.
