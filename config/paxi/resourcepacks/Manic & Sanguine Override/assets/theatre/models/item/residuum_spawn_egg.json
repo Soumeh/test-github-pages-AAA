@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "theatre:item/residuum_spawn_egg"
+    }
+}

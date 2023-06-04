@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "theatre:item/insomniac_spawn_egg"
+    }
+}

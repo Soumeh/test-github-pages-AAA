@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "theatre:item/corpsecreep_spawn_egg"
+    }
+}
