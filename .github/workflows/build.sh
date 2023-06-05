@@ -16,7 +16,7 @@ build () {
   mkdir temp
 
   rsync -av * temp/ --exclude=temp/ --exclude=fabric/ --exclude=forge/ --exclude=build.sh
-  rsync -av $1 temp/
+  rsync -av "$1/" temp/
 
   cd temp/
 
