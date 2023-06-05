@@ -1,0 +1,110 @@
+on: 
+  push:
+    tags:
+      - '*'
+  workflow_dispatch:
+
+concurrency:
+  group: "build"
+  cancel-in-progress: true
+
+env:
+  PROJECT_ID: "1UPdBpGk"
+
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.18.2'
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Download Packwiz
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          workflow: go.yml
+          repo: packwiz/packwiz
+          name: Linux 64-bit x86
+
+    # - name: Download Packwiz Bootloader
+    #   uses: robinraju/release-downloader@v1.7
+    #   with: 
+    #     repository: "packwiz/packwiz-installer-bootstrap"
+    #     tag: "v0.0.3"
+    #     fileName: "packwiz-installer-bootstrap.jar"
+    #     token: ${{ secrets.MY_TOKEN }}
+    #     out-file-path: "multimc"
+
+      - name: Build Packs
+        run: |
+          chmod +x packwiz
+          bash .github/workflows/build.sh ${{ github.event.release.tag_name }}
+
+      - name: Upload Packs
+        uses: actions/upload-artifact@v2
+        with:
+          name: modpack
+          path: build/*.mrpack
+
+  release-github:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+
+      - name: Download Files
+        uses: actions/download-artifact@v2
+        with:
+          name: modpack
+
+      - name: Update Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: "*.mrpack"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  release-modrinth:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+
+      - name: Download Modpack
+        uses: actions/download-artifact@v2
+        with:
+          name: modpack
+
+      - name: Create Forge Release
+        uses: RubixDev/modrinth-upload@v1
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          name: (Forge) The Theatre ${{ github.event.release.tag_name }}
+          file_path: forge.mrpack
+          version: ${{ github.event.release.tag_name }}
+          changelog: ${{ github.event.release.body }}
+          loaders: forge
+          featured: true
+          project_id: $PROJECT_ID
+
+      - name: Create Fabric Release
+        uses: RubixDev/modrinth-upload@v1
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          name: (Fabric) The Theatre ${{ github.event.release.tag_name }}
+          file_path: fabric.mrpack
+          version: ${{ github.event.release.tag_name }}
+          changelog: ${{ github.event.release.body }}
+          loaders: fabric
+          featured: true
+          project_id: $PROJECT_ID
