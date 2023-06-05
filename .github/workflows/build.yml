@@ -71,6 +71,7 @@ jobs:
       - name: Update Release
         uses: softprops/action-gh-release@v1
         with:
+          name: "The Theatre ${{ github.event.release.tag_name }}"
           files: "*.mrpack"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -86,7 +87,7 @@ jobs:
           name: modpack
 
       - name: Create Forge Release
-        uses: RubixDev/modrinth-upload@v1
+        uses: RubixDev/modrinth-upload@v1.0.0
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           name: (Forge) The Theatre ${{ github.event.release.tag_name }}
@@ -98,7 +99,7 @@ jobs:
           project_id: $PROJECT_ID
 
       - name: Create Fabric Release
-        uses: RubixDev/modrinth-upload@v1
+        uses: RubixDev/modrinth-upload@v1.0.0
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
           name: (Fabric) The Theatre ${{ github.event.release.tag_name }}
