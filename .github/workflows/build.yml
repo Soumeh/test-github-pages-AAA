@@ -95,7 +95,7 @@ jobs:
           loaders: forge
           featured: true
           game_versions: 1.19.2
-          project_id: $PROJECT_ID
+          project_id: ${{env.PROJECT_ID}}
 
       - name: Create Fabric Release
         uses: RubixDev/modrinth-upload@v1.0.0
@@ -108,4 +108,4 @@ jobs:
           loaders: fabric
           featured: true
           game_versions: 1.19.2
-          project_id: $PROJECT_ID
+          project_id: ${{env.PROJECT_ID}}
