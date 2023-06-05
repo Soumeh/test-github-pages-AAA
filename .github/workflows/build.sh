@@ -15,13 +15,13 @@ build () {
   fi
   mkdir temp
 
-  rsync -av * temp/ --exclude=temp/ --exclude=fabric/ --exclude=forge/ --exclude=build.sh
+  rsync -av * temp/
+  rsync -av .packwizignore temp/
   rsync -av "$1/" temp/
 
   cd temp/
 
     sed 's/version = "1.0.0"/version = "'$3'"/' pack.toml
-    echo -e $2 >> pack.toml
     packwiz mr export --output "../build/$1.mrpack"
 
   cd ..

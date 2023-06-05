@@ -7,3 +7,7 @@ pack-format = "packwiz:1.1.0"
 file = "index.toml"
 hash-format = "sha256"
 hash = ""
+
+[versions]
+fabric = "0.14.21"
+minecraft = "1.19.2"

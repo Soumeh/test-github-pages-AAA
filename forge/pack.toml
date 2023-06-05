@@ -1,11 +1,13 @@
-name = ""
+name = "The Theatre"
+author = "Sindercube"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d6b4c1f1be781ec4c90bf280c65a58ddb344d64c9f4bc621497143a0c1ba21f3"
+hash = ""
 
 [versions]
-fabric = "0.14.21"
+forge = "43.2.0"
 minecraft = "1.19.2"
