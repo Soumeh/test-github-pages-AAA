@@ -88,22 +88,24 @@ jobs:
         uses: RubixDev/modrinth-upload@v1.0.0
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          name: "(Forge) The Theatre ${{ github.event.release.tag_name }}"
+          name: (Forge) The Theatre ${{ github.event.release.tag_name }}
           file_path: forge.mrpack
           version: ${{ github.event.release.tag_name }}
           changelog: ${{ github.event.release.body }}
           loaders: forge
           featured: true
+          game_versions: 1.19.2
           project_id: $PROJECT_ID
 
       - name: Create Fabric Release
         uses: RubixDev/modrinth-upload@v1.0.0
         with:
           token: ${{ secrets.MODRINTH_TOKEN }}
-          name: "(Fabric) The Theatre ${{ github.event.release.tag_name }}"
+          name: (Fabric) The Theatre ${{ github.event.release.tag_name }}
           file_path: fabric.mrpack
           version: ${{ github.event.release.tag_name }}
           changelog: ${{ github.event.release.body }}
           loaders: fabric
           featured: true
+          game_versions: 1.19.2
           project_id: $PROJECT_ID
