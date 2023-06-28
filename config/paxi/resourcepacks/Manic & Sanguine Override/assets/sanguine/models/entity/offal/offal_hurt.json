@@ -1,6 +1,0 @@
-{
-    "parent": "sanguine:entity/offal/offal",
-    "textures": {
-        "0": "sanguine:insomniacs.entity/offal/offal_hurt"
-    }
-}

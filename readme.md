@@ -1,6 +1,4 @@
-<!--
 # **⚠️ Notice ⚠️** The 1.19.2 version of the pack uses outdated versions of Manic & Sanguine and won't be updated because of compatibility issues.
--->
 
 # **⚠️ Notice ⚠️** This project is not officially endorsed by The Insomniacs.
 
@@ -12,8 +10,7 @@ This pack serves as a clean slate for anyone who wants to play with both Manic &
 
 > For any questions related to Manic & Sanguine, go to [The Insomniacs Discord Server](https://discord.gg/jsbRvexYqA).
 
-
-> For any questions related to the 1.19.2 port of Manic & Sanguine, or the Modpack itself, go to [The Sindercube Discord Server](https://discord.gg/dmKMAMf).
+> For any questions related to the Modpack itself, go to the [Sindercube Discord Server](https://discord.gg/dmKMAMf).
 
 # 🩸 Features 🩸
 
@@ -22,14 +19,6 @@ This pack serves as a clean slate for anyone who wants to play with both Manic &
 - Fight scary monsters!
 - Survive Blood Moons!
 - *The fog is coming.*
-
-# 🛠️ Standalone Usage 🛠️
-
-> **⚠️ Warning ⚠️** The 1.19.2 version of Manic & Sanguine will stop being supported once the next releases of both packs come out, which will make this tutorial obsolete.
-
-Manic & Sanguine do not officially support Minecraft 1.19.2, and as such this modpack applies tweaks which fix this incompatibility.
-
-You can make Manic & Sanguine compatible with Minecraft 1.19.2 by simply adding this modpack's [override resourcepack](https://github.com/Sindercube/The-Theatre/raw/main/overrides/Override%20Resourcepack.zip) and [datapack](https://github.com/Sindercube/The-Theatre/raw/main/overrides/Override%20Datapack.zip) to your own instance.
 
 # 📜 Credits 📜
 

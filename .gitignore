@@ -1,1 +1,4 @@
 build/
+index.toml
+# temporarily ignore the forge version, maybe some day?
+forge/

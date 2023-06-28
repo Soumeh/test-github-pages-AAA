@@ -1,6 +1,0 @@
-{
-    "parent": "sanguine:entity/butcher/raise",
-    "textures": {
-        "0": "sanguine:insomniacs.entity/butcher/raise_hurt"
-    }
-}

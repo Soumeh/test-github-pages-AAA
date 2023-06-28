@@ -1,6 +1,0 @@
-{
-	"parent": "manic:entity/grinn/regroup",
-	"textures": {
-		"0": "manic:insomniacs.entity/grinn/regroup_hurt"
-	}
-}

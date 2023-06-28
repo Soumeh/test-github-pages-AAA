@@ -1,0 +1,13 @@
+name = "Sanguine"
+filename = "Sanguine.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zliP2NTL/versions/wNQcU0oY/sanguine-resourcepack.zip"
+hash-format = "sha1"
+hash = "d68bb7ea4691d8a275853da6d2bc4e1fc8db7107"
+
+[update]
+[update.modrinth]
+mod-id = "zliP2NTL"
+version = "wNQcU0oY"

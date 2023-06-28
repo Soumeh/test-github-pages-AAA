@@ -22,6 +22,7 @@ build () {
   cd temp/
 
     sed 's/version = "1.0.0"/version = "'$3'"/' pack.toml
+    echo 'hash-format = "sha256"' > index.toml
     packwiz mr export --output "../build/$1.mrpack"
 
   cd ..
@@ -31,4 +32,4 @@ build () {
 }
 
 build "fabric" '\n[versions]\nfabric = "0.14.21"\nminecraft = "1.19.2"' "$VERSION"
-build "forge" '\n[versions]\nforge = "43.2.0"\nminecraft = "1.19.2"' "$VERSION"
+#build "forge" '\n[versions]\nforge = "43.2.0"\nminecraft = "1.19.2"' "$VERSION"

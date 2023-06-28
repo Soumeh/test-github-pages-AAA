@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "item": {
+                    "nbt": "{theatre:{summon:\"flagellant\"}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "theatre:spawn_egg/flagellant"
+    }
+}

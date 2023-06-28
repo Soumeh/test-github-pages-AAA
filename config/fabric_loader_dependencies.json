@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "overrides": {
+    "disable_custom_worlds_advice": {
+      "-depends": {
+        "minecraft": "IGNORED"
+      }
+    }
+  }
+}
