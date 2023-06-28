@@ -1,0 +1,2 @@
+resourcePacks:["vanilla","fabric","file/Sanguine.zip","file/Manic.zip","file/Override"]
+
