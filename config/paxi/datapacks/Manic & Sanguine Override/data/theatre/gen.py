@@ -54,6 +54,7 @@ def gen_advancement(origin, mob):
 def gen_spawn_function(origin, mob):
     
     func = f"""execute as @e[type=item_frame,tag=theatre.spawn_frame,limit=1,sort=nearest] at @s align xyz positioned ~.5 ~ ~.5 run function {origin}:commands/summon/{mob}
+execute as @e[type=item_frame,tag=theatre.spawn_frame,limit=1,sort=nearest] at @s run playsound {origin}:entity.{mob}.ambient ambient @a
 advancement revoke @p[advancements={{theatre:{mob}_spawn_check=true}}] only theatre:{mob}_spawn_check
 kill @e[type=item_frame,tag=theatre.spawn_frame,limit=1,sort=nearest]"""
 
