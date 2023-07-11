@@ -46,7 +46,7 @@ def main():
         final_data.append(new_data)
 
 
-    with open('result.json5', 'w') as file:
+    with open('result.json', 'w') as file:
         dump(final_data, file, indent=4)
 
 if __name__ == '__main__':

@@ -3,5 +3,6 @@
 build/
 temp/
 index.toml
+result.json
 # temporarily ignore the forge version, maybe some day?
 forge/
