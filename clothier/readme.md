@@ -34,6 +34,8 @@ end)
 ```lua
 print(clothier.sanity())
 ```
+> **Note**
+> Sanity values are represented as integers from -10 to 10, with -10 being max Lunacy, and 10 being max Sanity.
 - Run a function every time the world's Blood Moon status changes.
 ```lua
 clothier.event.blood_moon_change(function(state)
