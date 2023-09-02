@@ -3,6 +3,11 @@
 build/
 temp/
 index.toml
+
 result.json
+parse.py
+gen.py
+
 # temporarily ignore the forge version, maybe some day?
 forge/
+

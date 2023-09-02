@@ -1,2 +1,1 @@
-resourcePacks:["vanilla","fabric","file/Sanguine.zip","file/Manic.zip","file/Override"]
-
+resourcePacks:["vanilla","fabric","file/Nevermore.zip","file/The Theatre"]
