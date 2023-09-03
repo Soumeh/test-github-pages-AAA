@@ -4,11 +4,12 @@
 
 # Installation
 
-Download the [`Clothier.lua`](Clothier.lua) script and put it in your Figura avatar's folder.
+- Download the [Clothier](Clothier.lua) script and put it in your Figura avatar's folder.
+- Download the [GSServerNet](https://github.com/GrandpaScout/GSServerNet/blob/main/client/GSServerNet.lua) script and also put it in the same folder.
 
-Also, download the [`GSServerNet.lua`](https://github.com/GrandpaScout/GSServerNet/blob/main/client/GSServerNet.lua) script and also put it in the same folder.
-
-If you are playing in singleplayer, running your own server, or would like to use the API on a server, [download](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FGrandpaScout%2FGSServerNet%2Ftree%2Fmain%2Fserver%2FGSServerNet) the [GSServerNet](https://github.com/GrandpaScout/GSServerNet/tree/main/server/GSServerNet) datapack and put it in your world's `datapacks` folder.
+> If you are playing in singleplayer, running your own server, or would like to use the API on a server, you have to:
+> - [Download](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FGrandpaScout%2FGSServerNet%2Ftree%2Fmain%2Fserver%2FGSServerNet) the [GSServerNet](https://github.com/GrandpaScout/GSServerNet/tree/main/server/GSServerNet) datapack and put it in your world's `datapacks` folder.
+> - [Download](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FSindercube%2FThe-Theatre%2Ftree%2Fmain%2Fclothier%2FClothier) the [Clothier](https://github.com/Sindercube/The-Theatre/tree/main/clothier/Clothier) datapack and put it in the same folder.
 
 # Usage
 
@@ -24,6 +25,13 @@ local clothier = require("Clothier")
 
 Using the `clothier` variable you can:
 
+- Run a function when all Manic and Sanguine data has been initialized.
+```lua
+clothier.event.init(function()
+    print(clothier.sanity())
+    print(clothier.is_blood_moon())
+end)
+```
 - Run a function every time your Sanity value changes.
 ```lua
 clothier.event.sanity_change(function(value)
