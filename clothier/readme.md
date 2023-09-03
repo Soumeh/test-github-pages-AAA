@@ -4,8 +4,8 @@
 
 # Installation
 
-- Download the [Clothier](Clothier.lua) script and put it in your Figura avatar's folder.
-- Download the [GSServerNet](https://github.com/GrandpaScout/GSServerNet/blob/main/client/GSServerNet.lua) script and also put it in the same folder.
+- Download the [GSServerNet](https://github.com/GrandpaScout/GSServerNet/blob/main/client/GSServerNet.lua) script and put it in your Figura avatar's folder.
+- Download the [Clothier](Clothier.lua) script and put it in the same folder.
 
 > If you are playing in singleplayer, running your own server, or would like to use the API on a server, you have to:
 > - [Download](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FGrandpaScout%2FGSServerNet%2Ftree%2Fmain%2Fserver%2FGSServerNet) the [GSServerNet](https://github.com/GrandpaScout/GSServerNet/tree/main/server/GSServerNet) datapack and put it in your world's `datapacks` folder.
