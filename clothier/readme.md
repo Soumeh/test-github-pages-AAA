@@ -1,6 +1,6 @@
 # About
 
-**Clothier** is a Figura API which allows you to access Manic and Sanguine data like the world's Blood Moon status or your Sanity value.
+**Clothier** is a Figura API that allows you to access Manic and Sanguine data like the world's Blood Moon status or your Sanity value.
 
 # Installation
 
