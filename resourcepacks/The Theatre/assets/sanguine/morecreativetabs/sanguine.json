@@ -290,6 +290,55 @@
         {
             "name": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{display:{Name:'{\"translate\":\"item.minecraft.music_disc_13\",\"color\":\"#FF1E00\",\"italic\":false}',Lore:['{\"translate\":\"record.sanguine.engorge\",\"color\":\"gray\",\"italic\":false}', '{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},CustomModelData:8361016,HideFlags:4,sanguine:{id:\"music_disc_engorge\"},nucleus:{music_disc:\"sanguine:engorge\"},nucleus:{prevent_striders:1b}}"
+        },
+
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.anemone_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359018,theatre:{summon:\"anemone\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.bruiser_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359019,theatre:{summon:\"bruiser\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.butcher_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359020,theatre:{summon:\"butcher\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.carrion_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359021,theatre:{summon:\"carrion\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.gore_skeleton_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359022,theatre:{summon:\"gore_skeleton\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.gore_zombie_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359023,theatre:{summon:\"gore_zombie\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.grub_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359024,theatre:{summon:\"grub\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.gurgle_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359025,theatre:{summon:\"gurgle\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.maul_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359026,theatre:{summon:\"maul\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.offal_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359027,theatre:{summon:\"offal\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.reaper_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359028,theatre:{summon:\"reaper\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.unborn_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359029,theatre:{summon:\"unborn\"}}"
         }
     ]
 }

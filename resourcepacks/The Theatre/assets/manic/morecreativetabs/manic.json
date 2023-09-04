@@ -554,6 +554,80 @@
         {
             "name": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{display:{Name:'{\"translate\":\"item.minecraft.music_disc_13\",\"color\":\"#35cc3a\",\"italic\":false}',Lore:['{\"translate\":\"record.manic.respite\",\"color\":\"gray\",\"italic\":false}', '{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},CustomModelData:8360016,HideFlags:4,manic:{id:\"music_disc_respite\"},nucleus:{music_disc:\"manic:respite\",prevent_striders:1b}}"
+        },
+
+
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.chitter_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359000,theatre:{summon:\"chitter\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.corpsecreep_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359001,theatre:{summon:\"corpsecreep\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.eidolon_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359002,theatre:{summon:\"eidolon\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.flagellant_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359003,theatre:{summon:\"flagellant\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.grinn_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359004,theatre:{summon:\"grinn\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.heretic_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359005,theatre:{summon:\"heretic\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.insomniac_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359006,theatre:{summon:\"insomniac\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.lockjaw_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359007,theatre:{summon:\"lockjaw\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.mirage_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359008,theatre:{summon:\"mirage\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.necromorph_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359009,theatre:{summon:\"necromorph\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.paracusia_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359010,theatre:{summon:\"paracusia\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.piglin_monk_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359011,theatre:{summon:\"piglin_monk\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.revenant_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359012,theatre:{summon:\"revenant\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.siren_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359013,theatre:{summon:\"siren\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.sorrowhead_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359014,theatre:{summon:\"sorrowhead\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.spook_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359015,theatre:{summon:\"spook\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.zealot_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359016,theatre:{summon:\"zealot\"}}"
+        },
+        {
+            "name": "minecraft:item_frame",
+            "nbt": "{display:{Name:'{\"translate\":\"item.theatre.zombee_spawn_egg\",\"color\":\"white\",\"italic\":false}',Lore:['{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}']},EntityTag:{Tags:[\"theatre.spawn_frame\"],Invisible:1,Silent:1},CustomModelData:8359017,theatre:{summon:\"zombee\"}}"
         }
     ]
 }
