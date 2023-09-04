@@ -2,8 +2,8 @@
     "pack.theatre.prefix": "The",
     "pack.theatre": "Theatre",
 
-    "itemGroup.morecreativetabs.manic": "Manic",
-    "itemGroup.morecreativetabs.sanguine": "Sanguine",
+    "morecreativetabs.manic": "Manic",
+    "morecreativetabs.sanguine": "Sanguine",
 
     "gamerules.theatre.blood_moon_sleep": "Sleep during Blood Moons",
     "gamerules.theatre.blood_moon_sleep.description": "Allows players to sleep during Blood Moons",
