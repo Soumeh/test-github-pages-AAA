@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "theatre:item/zealot_spawn_egg"
+    }
+}

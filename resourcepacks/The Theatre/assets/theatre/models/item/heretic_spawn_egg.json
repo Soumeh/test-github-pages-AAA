@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "theatre:item/chitter_spawn_egg"
+        "layer0": "theatre:item/heretic_spawn_egg"
     }
 }
