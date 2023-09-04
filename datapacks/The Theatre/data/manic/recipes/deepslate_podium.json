@@ -17,26 +17,20 @@
             "display": {
                 "Name": "{\"translate\":\"block.manic.deepslate_podium\",\"italic\":false}",
                 "Lore": ["{\"translate\":\"manic.tooltip\",\"font\":\"manic:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.manic\",\"font\":\"minecraft:default\",\"color\":\"#106050\",\"italic\":true}]}"]
-                },
+            },
             "BlockEntityTag": {
                 "Items": [{
                     "id": "minecraft:stone",
                     "Count": 1,
                     "Slot": 0,
-                    "tag": {
-                        "nucleus": {
-                            "block": {
-                                "placed_block": 1,
-                                "id": "manic:deepslate_podium"
-                            }
-                        }
-                    }}
-                ]
+                    "tag": { "nucleus": { "block": {
+                        "placed_block": 1,
+                        "id": "manic:deepslate_podium"
+                    } } }
+                }]
             },
             "CustomModelData": 8360000,
-            "manic": {
-                "id": "deepslate_podium"
-            }
+            "manic": { "id": "deepslate_podium" }
         }
     }
 }
