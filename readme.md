@@ -21,7 +21,7 @@
 
 ## Theatre Exclusive Features
 
-- See the results of crafting recipes directly in your recipe viewer of choice!
+- See the results of custom crafting recipes directly in your recipe viewer of choice!
 - Access all Manic and Sanguine items in the creative inventory menu!
 - Spawn all Manic and Sanguine mobs using Spawn Eggs!
 - Use Manic and Sanguine data in your [Figura](https://modrinth.com/mod/figura) scripts using the [Clothier API](clothier/readme.md)!
