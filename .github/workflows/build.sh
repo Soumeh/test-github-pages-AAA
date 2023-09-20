@@ -27,9 +27,11 @@ build () {
     echo 'hash-format = "sha256"' > index.toml
     packwiz mr export --output "../build/$1.mrpack"
 
+    cp "index.toml" "../index.toml"
+
   cd ..
 
-  #rm -rf temp/
+  rm -rf temp/
 
 }
 
