@@ -17,7 +17,7 @@ build () {
 
   rsync -av * temp/
   rsync -av .packwizignore temp/
-  rsync -av "$1/" temp/
+  rsync -av "$2/" temp/
 
   cd temp/
 
@@ -27,11 +27,12 @@ build () {
 
   cd ..
 
-  rm -rf temp/
+  #rm -rf temp/
 
 }
 
-build "the-theatre" '\n[versions]\nfabric = "0.14.21"\nminecraft = "1.19.2"' "$VERSION"
+build "the-theatre-lite" "none" "$VERSION"
+build "the-theatre" "full" "$VERSION"
 
 #build "the-theatre-fabric" '\n[versions]\nfabric = "0.14.21"\nminecraft = "1.19.2"' "$VERSION"
 #build "the-theatre-forge" '\n[versions]\nforge = "43.2.0"\nminecraft = "1.19.2"' "$VERSION"

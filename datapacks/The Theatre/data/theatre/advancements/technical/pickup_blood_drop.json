@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{theatre:{id:\"blood_drop\"}}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "theatre:technical/pickup_blood_drop"
+    }
+  }
+  

@@ -1,0 +1,8 @@
+{
+    "entity_types": [
+        "minecraft:villager"
+    ],
+    "powers": [
+        "theatre:scared_of_unsightly"
+    ]
+}

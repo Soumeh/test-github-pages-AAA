@@ -5,8 +5,15 @@
     "morecreativetabs.manic": "Manic",
     "morecreativetabs.sanguine": "Sanguine",
 
+    "enchantment.theatre.fleshbinding_curse": "Curse of Fleshbinding",
+
+    "death.attack.theatre.heart_attack": "%s couldn't handle the stress",
+
     "gamerules.theatre.blood_moon_sleep": "Sleep during Blood Moons",
     "gamerules.theatre.blood_moon_sleep.description": "Allows players to sleep during Blood Moons",
+
+    "item.theatre.insomniac_mask": "Paper Bag",
+    "item.theatre.blood_drop": "Blood",
 
     "item.theatre.butcher_spawn_egg": "Butcher Spawn Egg",
     "item.theatre.carrion_spawn_egg": "Carrion Spawn Egg",
@@ -38,5 +45,40 @@
     "item.theatre.flagellant_spawn_egg": "Flagellant Spawn Egg",
     "item.theatre.bruiser_spawn_egg": "Bruiser Spawn Egg",
     "item.theatre.grub_spawn_egg": "Grub Spawn Egg",
-    "item.theatre.anemone_spawn_egg": "Anemone Spawn Egg"
+    "item.theatre.anemone_spawn_egg": "Anemone Spawn Egg",
+
+
+    "layer.theatre.background.name": "Background",
+
+
+    "origin.theatre.human.name": "The Human",
+    "origin.theatre.human.description": "The most boring bitch ass choice",
+
+
+    "origin.theatre.scarecrow.name": "The Scarecrow",
+    "origin.theatre.scarecrow.description": "The Scarecrow more like THE DUMBASS",
+
+
+    "origin.theatre.servant.name": "The Servant",
+    "origin.theatre.servant.description": "Cursed with bearing an ancient artifact, and bearing with its curse.",
+
+    "power.theatre.bound_butcher_skull.name": "The Binding of the Mask",
+    "power.theatre.bound_butcher_skull.description": "You are bound to the mask, the mask is bound to you.",
+
+
+    "origin.theatre.insomniac.name": "The Insomniac",
+    "origin.theatre.insomniac.description": "W.I.P.",
+
+    "power.theatre.insomnia.name": "Insomnia",
+    "power.theatre.insomnia.description": "We Will Never Sleep Coz Sleep Is For The Weak",
+
+
+    "power.theatre.brown_thumb.name": "Brown Thumb",
+    "power.theatre.brown_thumb.description": "You're bad with plants, but you grew to appreciate your anti-talent. You can corrupt plants and you know how to take better care of them.",
+
+    "power.theatre.frail_mind.name": "Panic! At The Corpsefield",
+    "power.theatre.frail_mind.description": "You aren't good at handeling stress, you're jumpy, you're a mess. Even small things can hurt you a lot when you are insane.",
+
+    "power.theatre.scare_flying_spectres.name": "Formidophobia",
+    "power.theatre.scare_flying_spectres.description": "You being a mess isn't all bad, because flying creatures are afraid of you."
 }

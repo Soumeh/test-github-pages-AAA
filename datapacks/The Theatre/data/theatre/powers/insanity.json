@@ -1,0 +1,8 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "scoreboard players set @s manic.sanity 0"
+    },
+    "interval": 20
+}
