@@ -18,6 +18,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Download Packwiz
+        id: download-artifact
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          workflow: go.yml
+          repo: packwiz/packwiz
+          name: Linux 64-bit x86
+      - name: Build Dud Pack
+        run: |
+          chmod +x packwiz
+          echo 'hash-format = "sha256"' > index.toml
+          packwiz mr export --output "build/dud.mrpack"
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
