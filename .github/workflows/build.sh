@@ -1,7 +1,6 @@
 #!/bin/bash
 
 VERSION="$1"
-echo "$VERSION"
 
 if [ -d "build/" ]; then
   rm -rf build/
@@ -15,13 +14,16 @@ build () {
   fi
   mkdir temp
 
-  rsync -av * temp/
-  rsync -av .packwizignore temp/
-  rsync -av "$2/" temp/
+  rsync -q -av * temp/
+  cp "$2.packwizignore" "temp/.packwizignore"
+  #rsync -q -av .packwizignore temp/
+  #rsync -q -av "$2/" temp/
 
   cd temp/
 
-    sed 's/version = "1.0.0"/version = "'$3'"/' pack.toml
+    if [ -n "${VERSION}" ]; then
+      sed -i 's/version = ".*"/version = "'"$VERSION"'"/g' pack.toml
+    fi
     echo 'hash-format = "sha256"' > index.toml
     packwiz mr export --output "../build/$1.mrpack"
 
@@ -31,8 +33,8 @@ build () {
 
 }
 
-build "the-theatre-lite" "none" "$VERSION"
-build "the-theatre" "full" "$VERSION"
+build "the-theatre-lite" "lite"
+build "the-theatre" ""
 
 #build "the-theatre-fabric" '\n[versions]\nfabric = "0.14.21"\nminecraft = "1.19.2"' "$VERSION"
 #build "the-theatre-forge" '\n[versions]\nforge = "43.2.0"\nminecraft = "1.19.2"' "$VERSION"

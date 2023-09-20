@@ -3,5 +3,6 @@ LICENSE
 overrides/
 temp/
 clothier/
+mods/full/
 
-lite.packwizignore
+.packwizignore
