@@ -1,3 +1,8 @@
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 > **Note**<br>
 > This project is not officially endorsed by The Insomniacs.
 
